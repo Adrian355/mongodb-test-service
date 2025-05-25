@@ -6,7 +6,9 @@ import uuid
 from datetime import datetime, timezone
 import csv
 import zipfile
+from dotenv import load_dotenv
 
+load_dotenv()
 app = Flask(__name__)
 report_data = []
 
