@@ -1,4 +1,2 @@
-.idea/
-__pycache__/
-*.pyc
-.env
+# created by virtualenv automatically
+.venv/Lib
